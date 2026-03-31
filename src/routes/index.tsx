@@ -210,8 +210,7 @@ function SmilerEnglish() {
           </div>
         </div>
       </section>
-
-      {/* TESTIMONIALS */}
+ {/* TESTIMONIALS */}
       <section className="section section-blue">
         <div className="container">
           <div className="section-header section-header-white">
@@ -220,14 +219,19 @@ function SmilerEnglish() {
           <div className="testimonials">
             {[
               {
-                name: 'Enzo',
-                role: 'Studente, C1',
-                text: 'Mi sono rivolto a Natascia per preparare il C1 cambridge. Avevo difficoltà nell'orale, ma sono riuscito a sbloccarmi grazie alla sua pazienza. Consigliatissima!',
+                name: 'Marco T.',
+                role: 'Manager, Milano',
+                text: 'Grazie alle lezioni di Smiler English ho ottenuto la promozione che aspettavo. Finalmente riesco a condurre meeting in inglese con sicurezza!',
               },
               {
-                name: 'Anna',
-                role: 'Studentessa, principiante',
-                text: 'Natascia è molto preparata e disponibile. Grazie a lei imparare l'inglese anche per principianti come me non è più impossibile. Grazie!',
+                name: 'Giulia M.',
+                role: 'Studentessa, Roma',
+                text: 'Ho superato il Cambridge B2 al primo tentativo. Il metodo è davvero efficace e le lezioni sono sempre stimolanti e mai noiose.',
+              },
+              {
+                name: 'Luca B.',
+                role: 'Ingegnere, Torino',
+                text: 'Avevo provato altre scuole ma non riuscivo ad andare avanti. Con Smiler English ho finalmente trovato il mio ritmo e i risultati si vedono.',
               },
             ].map((t, i) => (
               <div className="testimonial-card" key={i}>
@@ -242,6 +246,7 @@ function SmilerEnglish() {
           </div>
         </div>
       </section>
+
 
       {/* CONTATTI */}
       <section id="contatti" className="section section-beige">
