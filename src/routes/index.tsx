@@ -60,7 +60,7 @@ function SmilerEnglish() {
               <span className="accent">di lingua inglese</span>
             </h1>
             <p className="hero-sub">
-              Lezioni personalizzate, metodo su misura e un approccio umano che mette lo studente al primo posto. Impara l'inglese senza sforzi, dal livello principiante fino all'avanzato.
+              Impara l'inglese con metodo, non memorizzando. Lezioni costruite sui tuoi obiettivi, dal livello principiante all'avanzato.
             </p>
             <div className="hero-actions">
               <a href="#contatti" className="btn btn-primary">Prenota una lezione di prova</a>
@@ -108,23 +108,23 @@ function SmilerEnglish() {
             {[
               {
                 icon: '🔍',
-                title: 'Analisi iniziale',
-                desc: 'Prima di iniziare, discutiamo insieme per capire il tuo livello attuale e definire gli obiettivi da raggiungere.',
+                title: 'Call conoscitiva',
+                desc: 'Prima di iniziare, discutiamo insieme del tuo livello attuale e definiamo gli obiettivi didattici.',
               },
               {
                 icon: '🗺️',
                 title: 'Piano personalizzato',
-                desc: 'Creo un percorso su misura per te: non lezioni standardizzate, ma un programma costruito attorno alle tue esigenze specifiche.',
+                desc: 'Creo un percorso su misura per te: non lezioni standardizzate, ma un programma costruito attorno alle tue esigenze.',
               },
               {
                 icon: '🗣️',
                 title: 'Pratica attiva',
-                desc: 'La conversazione è al centro di ogni lezione. Impari usando la lingua, non solo studiando regole grammaticali.',
+                desc: 'Speaking practice in contesti reali: migliorerai la produzione orale a partire da esempi concreti di vita quotidiana. Ben oltre la grammatica.',
               },
               {
                 icon: '📈',
                 title: 'Monitoraggio continuo',
-                desc: 'Monitoro i tuoi progressi costantemente e adatto il percorso per assicurarti di raggiungere i tuoi obiettivi nei tempi previsti.',
+                desc: 'Monitoro i tuoi progressi costantemente e adatto il percorso in base ai tuoi obiettivi: certificazione linguistica, esame universitario, consolidamento delle competenze, conversazione e molto altro.',
               },
             ].map((step, i) => (
               <div className="step-card" key={i}>
@@ -138,7 +138,7 @@ function SmilerEnglish() {
 
           <div className="method-quote">
             <blockquote>
-              "Imparare una lingua non è solo studiare parole – è costruire una nuova finestra sul mondo."
+              "Imparare una lingua è come costruire una nuova finestra sul mondo."
             </blockquote>
           </div>
         </div>
@@ -148,10 +148,10 @@ function SmilerEnglish() {
       <section id="materie" className="section section-white">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Cosa offro</span>
+            <span className="section-tag">Per chi</span>
             <h2>Materie e Livelli</h2>
             <p className="section-lead">
-              Lezioni per ogni livello ed esigenza: dal primo approccio alla lingua fino alla preparazione agli esami internazionali.
+              Lezioni per tutti i livelli: dal principiante all'avanzato (A1-C1)
             </p>
           </div>
 
@@ -162,21 +162,21 @@ function SmilerEnglish() {
                 label: 'Principiante',
                 color: 'blue-light',
                 title: 'Inglese per Principianti',
-                items: ['Vocabolario di base', 'Frasi essenziali', 'Pronuncia corretta', 'Grammatica fondamentale'],
+                items: ['Vocabolario di base', 'Frasi essenziali', 'Basi di fonetica', 'Basi di grammatica'],
               },
               {
                 badge: 'B1–B2',
                 label: 'Intermedio',
                 color: 'blue',
                 title: 'Inglese Intermedio',
-                items: ['Conversazione fluente', 'Comprensione scritta e orale', 'Grammatica avanzata', 'Scrittura efficace'],
+                items: ['Conversazione', 'Comprensione scritta e orale', 'Grammatica avanzata', 'Produzione scritta'],
               },
               {
                 badge: 'C1–C2',
                 label: 'Avanzato',
                 color: 'blue-dark',
                 title: 'Inglese Avanzato',
-                items: ['Registro formale e informale', 'Testi complessi', 'Sfumature linguistiche', 'Pensiero critico in inglese'],
+                items: ['Registro formale e informale', 'Testi complessi', 'Produzione avanzata', 'Pensiero critico'],
               },
             ].map((level, i) => (
               <div className={`level-card level-${level.color}`} key={i}>
@@ -194,12 +194,12 @@ function SmilerEnglish() {
 
           <div className="subjects-grid">
             {[
-              { icon: '💼', title: 'Business English', desc: 'Email professionali, presentazioni, meeting e trattative in inglese per il mondo del lavoro.' },
-              { icon: '📋', title: 'Preparazione Esami', desc: 'Preparazione mirata per IELTS, TOEFL, Cambridge (A2 Key, B1 Preliminary, B2 First, C1 Advanced).' },
-              { icon: '✈️', title: 'Inglese per Viaggi', desc: 'Vocabolario pratico per viaggiare con sicurezza: hotel, aeroporti, ristoranti e molto altro.' },
-              { icon: '🎓', title: 'Supporto Scolastico', desc: 'Aiuto per studenti di ogni età con la grammatica, i compiti e la preparazione alle verifiche.' },
-              { icon: '💬', title: 'Conversation Club', desc: 'Sessioni dedicate esclusivamente alla conversazione per superare la paura di parlare in inglese.' },
-              { icon: '🔬', title: 'Inglese Tecnico', desc: 'Linguaggio specialistico per settori come medicina, ingegneria, informatica e giurisprudenza.' },
+              { icon: '💼', title: 'Business English', desc: 'Impara a scrivere email professionali e a preparare presentazioni e meeting in inglese per il mondo del lavoro.' },
+              { icon: '📋', title: 'Preparazione esami', desc: 'Preparazione mirata per IELTS, TOEFL, Cambridge (A2 Key, B1 Preliminary, B2 First, C1 Advanced).' },
+              { icon: '✈️', title: 'Inglese per il turismo', desc: 'Lessico mirato per viaggiare con sicurezza: hotel, aeroporti, ristoranti e molto altro.' },
+              { icon: '🎓', title: 'Aiuto compiti', desc: 'Aiuto per studenti di ogni età per grammatica, compiti e verifiche.' },
+              { icon: '💬', title: 'Speaking club', desc: 'Sessioni dedicate esclusivamente alla produzione orale per superare la paura di parlare in inglese.' },
+              { icon: '🔬', title: 'Inglese tecnico', desc: 'Linguaggio specialistico per settore tecnico-scientifico e informatico.' },
             ].map((subj, i) => (
               <div className="subject-card" key={i}>
                 <div className="subject-icon">{subj.icon}</div>
@@ -220,19 +220,14 @@ function SmilerEnglish() {
           <div className="testimonials">
             {[
               {
-                name: 'Marco T.',
-                role: 'Manager, Milano',
-                text: 'Grazie alle lezioni di Smiler English ho ottenuto la promozione che aspettavo. Finalmente riesco a condurre meeting in inglese con sicurezza!',
+                name: 'Enzo',
+                role: 'Studente, C1',
+                text: 'Mi sono rivolto a Natascia per preparare il C1 cambridge. Avevo difficoltà nell'orale, ma sono riuscito a sbloccarmi grazie alla sua pazienza. Consigliatissima!',
               },
               {
-                name: 'Giulia M.',
-                role: 'Studentessa, Roma',
-                text: 'Ho superato il Cambridge B2 al primo tentativo. Il metodo è davvero efficace e le lezioni sono sempre stimolanti e mai noiose.',
-              },
-              {
-                name: 'Luca B.',
-                role: 'Ingegnere, Torino',
-                text: 'Avevo provato altre scuole ma non riuscivo ad andare avanti. Con Smiler English ho finalmente trovato il mio ritmo e i risultati si vedono.',
+                name: 'Anna',
+                role: 'Studentessa, principiante',
+                text: 'Natascia è molto preparata e disponibile. Grazie a lei imparare l'inglese anche per principianti come me non è più impossibile. Grazie!',
               },
             ].map((t, i) => (
               <div className="testimonial-card" key={i}>
