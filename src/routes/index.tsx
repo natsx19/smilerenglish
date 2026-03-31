@@ -54,16 +54,16 @@ function SmilerEnglish() {
       <section className="hero">
         <div className="container hero-inner">
           <div className="hero-content">
-            <p className="hero-eyebrow">Benvenuto su Smiler English</p>
+            <p className="hero-eyebrow">Smiler English</p>
             <h1 className="hero-title">
-              Sono un'insegnante<br />
-              <span className="accent">di inglese</span>
+              Tutor certificata<br />
+              <span className="accent">di lingua inglese</span>
             </h1>
             <p className="hero-sub">
-              Lezioni personalizzate, metodo moderno e un approccio umano che mette il tuo progresso al centro. Impara l'inglese con fiducia, dal livello principiante fino all'avanzato.
+              Lezioni personalizzate, metodo su misura e un approccio umano che mette lo studente al primo posto. Impara l'inglese senza sforzi, dal livello principiante fino all'avanzato.
             </p>
             <div className="hero-actions">
-              <a href="#contatti" className="btn btn-primary">Prenota una lezione gratuita</a>
+              <a href="#contatti" className="btn btn-primary">Prenota una lezione di prova</a>
               <a href="#come-lavoro" className="btn btn-outline">Scopri il metodo</a>
             </div>
           </div>
@@ -71,8 +71,8 @@ function SmilerEnglish() {
             <div className="hero-card">
               <div className="hero-card-icon">🎓</div>
               <div className="hero-card-text">
-                <strong>Certificazione Cambridge</strong>
-                <span>Insegnante qualificata</span>
+                <strong>Laurea magistrale in Lingue</strong>
+                <span>Insegnante qualificata con esperienza</span>
               </div>
             </div>
             <div className="hero-card">
@@ -85,7 +85,7 @@ function SmilerEnglish() {
             <div className="hero-card">
               <div className="hero-card-icon">⭐</div>
               <div className="hero-card-text">
-                <strong>+200 studenti</strong>
+                <strong>+5 anni di esperienza</strong>
                 <span>Risultati concreti</span>
               </div>
             </div>
@@ -109,7 +109,7 @@ function SmilerEnglish() {
               {
                 icon: '🔍',
                 title: 'Analisi iniziale',
-                desc: 'Prima di iniziare, facciamo insieme una valutazione gratuita per capire il tuo livello attuale e definire gli obiettivi da raggiungere.',
+                desc: 'Prima di iniziare, discutiamo insieme per capire il tuo livello attuale e definire gli obiettivi da raggiungere.',
               },
               {
                 icon: '🗺️',
@@ -124,7 +124,7 @@ function SmilerEnglish() {
               {
                 icon: '📈',
                 title: 'Monitoraggio continuo',
-                desc: 'Monitoriamo i tuoi progressi costantemente e adattiamo il percorso per assicurarti di raggiungere i tuoi obiettivi nei tempi previsti.',
+                desc: 'Monitoro i tuoi progressi costantemente e adatto il percorso per assicurarti di raggiungere i tuoi obiettivi nei tempi previsti.',
               },
             ].map((step, i) => (
               <div className="step-card" key={i}>
