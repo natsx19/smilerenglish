@@ -60,7 +60,7 @@ function SmilerEnglish() {
               <span className="accent">di lingua inglese</span>
             </h1>
             <p className="hero-sub">
-              Impara l'inglese con metodo, non memorizzando. Lezioni costruite sui tuoi obiettivi, dal livello principiante all'avanzato.
+              Impara l'inglese con metodo, non memorizzando. Lezioni online, costruite sui tuoi obiettivi, dal livello principiante all'avanzato.
             </p>
             <div className="hero-actions">
               <a href="#contatti" className="btn btn-primary">Prenota una lezione di prova</a>
@@ -72,7 +72,7 @@ function SmilerEnglish() {
               <div className="hero-card-icon">🎓</div>
               <div className="hero-card-text">
                 <strong>Laurea magistrale in Lingue</strong>
-                <span>Insegnante qualificata con esperienza</span>
+                <span>Insegnante qualificata</span>
               </div>
             </div>
             <div className="hero-card">
@@ -85,7 +85,7 @@ function SmilerEnglish() {
             <div className="hero-card">
               <div className="hero-card-icon">⭐</div>
               <div className="hero-card-text">
-                <strong>+5 anni di esperienza</strong>
+                <strong>Esperienza nel privato e in ambito universitario</strong>
                 <span>Risultati concreti</span>
               </div>
             </div>
@@ -255,10 +255,10 @@ function SmilerEnglish() {
       <section id="contatti" className="section section-beige">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Parliamoci</span>
+            <span className="section-tag">Iniziamo!</span>
             <h2>Contatti</h2>
             <p className="section-lead">
-              Hai domande o vuoi prenotare la tua prima lezione gratuita? Scrivimi, ti rispondo entro 24 ore!
+              Hai domande o vuoi prenotare la tua prima lezione? Scrivimi qui o via mail/Telegram!
             </p>
           </div>
 
@@ -268,28 +268,28 @@ function SmilerEnglish() {
                 <div className="contact-icon">📧</div>
                 <div>
                   <strong>Email</strong>
-                  <span>info@smilerenglish.it</span>
+                  <span>smilerenglishlezioni@gmail.com</span>
                 </div>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">📱</div>
                 <div>
-                  <strong>WhatsApp</strong>
-                  <span>+39 320 000 0000</span>
+                  <strong>Telegram</strong>
+                  <span>t.me/smilereng</span>
                 </div>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">🕐</div>
                 <div>
                   <strong>Disponibilità</strong>
-                  <span>Lun–Sab, 9:00–20:00</span>
+                  <span>Lun–Sab, 9:30–17:30</span>
                 </div>
               </div>
               <div className="contact-item">
                 <div className="contact-icon">🎁</div>
                 <div>
-                  <strong>Prima lezione</strong>
-                  <span>Gratuita e senza impegno</span>
+                  <strong>Pacchetti +lezioni disponibili</strong>
+                  <span>A tariffa ridotta</span>
                 </div>
               </div>
             </div>
